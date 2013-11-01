@@ -1,0 +1,25 @@
+{
+    "name": "nodeunit-plus",
+    "version": "0.0.1",
+    "description": "An API for nodeunit that looks like node-tap",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mcavage/nodeunit-plus.git"
+    },
+    "author": "Mark Cavage <mcavage@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mcavage/nodeunit-plus/issues"
+    },
+    "dependencies": {
+        "bunyan": "0.22.0",
+        "once": "1.3.0"
+    },
+    "devDependencies": {
+        "nodeunit": "0.8.1"
+    },
+    "scripts": {
+        "test": "nodeunit test/test.js"
+    }
+}
